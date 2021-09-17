@@ -1,0 +1,46 @@
+body {
+    font: 16px/28px arial, sans-serif;
+    color: #333;
+    background-color:#eaeaea;
+}
+
+.container {
+    background-color: white;
+    width: 800px;
+    height: 1080px;
+    margin: auto;
+}
+
+.header{
+    padding: 20px;
+}
+
+.header .judul{
+    margin-left: 37px;
+    font-size:40px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-left: auto;
+    padding-right: 15px;
+}
+
+.header a {
+    padding: 5px;
+    text-decoration: none;
+    color:lime;
+}
+
+.header a:hover {
+    background-color: #eaeaea;
+
+}
+
+.hero {
+    height: 250px;
+    background-image: url(img/hero.png);
+    background-position: center;
+    background-size: cover;
+}
